@@ -1,0 +1,53 @@
+{
+  "menu": [
+    {
+      "route": "dashboard",
+      "name": "dashboard",
+      "type": "link",
+      "icon": "dashboard",
+      "badge": {
+        "color": "red-50",
+        "value": "5"
+      }
+    },
+
+
+    {
+      "route": "station",
+      "name": "station",
+      "type": "link",
+      "icon": "home" ,
+      "permissions": {
+        "only": [
+          "SuperAdmin",
+          "Admin"
+        ]
+      }
+    }
+     ,
+    {
+      "route": "station-monitor",
+      "name": "station-monitor",
+      "type": "link",
+      "icon": "visibility"
+    },
+    {
+      "route": "schedule",
+      "name": "schedule",
+      "type": "link",
+      "icon": "visibility"
+    },
+    {
+      "route": "users",
+      "name": "users",
+      "type": "link",
+      "icon": "person",
+      "permissions": {
+        "only": [
+          "SuperAdmin",
+          "Admin"
+        ]
+      }
+    }
+  ]
+}
